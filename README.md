@@ -70,7 +70,7 @@ Dashboard -
 
 User Side - 
 
-Server - 
+Server - https://github.com/CHAITANYA1264/HOSPITAL-MANAGEMENT-SYSTEM/tree/main/Backend
 
 ## Screenshots
 
