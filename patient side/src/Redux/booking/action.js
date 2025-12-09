@@ -6,7 +6,7 @@ export const createBooking = (data) => async (dispatch) => {
   try {
     dispatch({ type: types.CREATE_BOOKING_REQUEST });
     const res = await axios.post(
-      `http://localhost:5000/appointments/create`,
+      `https://hospital-management-system-backend-ikmh.onrender.com/appointments/create`,
       data
     );
     console.log(res);
@@ -19,7 +19,7 @@ export const createBooking = (data) => async (dispatch) => {
 export const createPatient = (data) => async (dispatch) => {
   try {
     const res = await axios.post(
-      `http://localhost:5000/patients/register`,
+      `https://hospital-management-system-backend-ikmh.onrender.com/patients/register`,
       data
     );
     return res.data
