@@ -6,7 +6,7 @@ export const authLogin = (data) => async (dispatch) => {
   try {
     dispatch({ type: types.LOGIN_USER_REQUEST });
     const res = await axios.post(
-      "http://localhost:5000/patients/login",
+      "https://hospital-management-system-backend-ikmh.onrender.com/patients/login",
       data
     );
     console.log(res);
