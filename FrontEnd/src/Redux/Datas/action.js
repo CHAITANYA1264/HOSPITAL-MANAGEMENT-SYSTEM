@@ -1,7 +1,7 @@
 import * as types from "./types";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000"; // 👈 Change this once when needed
+const BASE_URL = "https://hospital-management-system-backend-ikmh.onrender.com"; // 👈 Change this once when needed
 
 // CreateReport
 export const CreateReport = (data) => async (dispatch) => {
