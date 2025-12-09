@@ -41,7 +41,7 @@ export const authLogout = () => async (dispatch) => {
 export const forgotPassword = (data) => async (dispatch) => {
   try {
     const res = await axios.post(
-      `http://localhost:5000/admin/forgot`,
+      `https://hospital-management-system-backend-ikmh.onrender.com/admin/forgot`,
       data
     );
     return res.data;
