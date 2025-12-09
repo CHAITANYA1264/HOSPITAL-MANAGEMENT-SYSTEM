@@ -2,7 +2,7 @@ import * as types from "./types";
 import axios from "axios";
 
 // Define a single API base URL
-const API_BASE = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API_BASE =  "https://hospital-management-system-backend-ikmh.onrender.com";
 
 // LOGIN NURSE
 export const NurseLogin = (data) => async (dispatch) => {
